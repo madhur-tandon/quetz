@@ -5,7 +5,6 @@ import time
 import uuid
 
 import pytest
-
 from quetz.pkgstores import AzureBlobStore, LocalStore, S3Store, has_xattr
 
 s3_config = {
